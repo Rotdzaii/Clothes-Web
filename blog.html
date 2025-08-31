@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cà rốt và Cindy</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        nguyendeptrai@vanlanguni.vn
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        123456789JQK
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="register.html" class="login-panel"><i class="fa fa-user"></i>Đăng Ký</a>
+                    <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Đăng nhập</a>           
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/Flag/FlagEnglish.png" data-imagecss="flag yt"
+                                data-title="English">English</option>
+                            <option value='yu' data-image="img/Flag/FlagGermany.png" data-imagecss="flag yu"
+                                data-title="Germany">Đức </option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-twitter-alt"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                        <a href="#"><i class="ti-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- container -->
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/logo.png" alt="">
+                                <style>.logo img {
+                                      width: 50px;
+                                    height:-100px;
+                                        display: flex;
+                                        align-items: center;
+                                        border-radius: 24px;
+                                      }
+                                  </style>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <div class="advanced-search">
+                            <button type="button" class="category-btn">Danh mục</button>
+                            <form action="#" class="input-group">
+                                <input type="text" placeholder="Tìm sản phẩm bạn muốn?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li><a href="#" data-toggle="modal" data-target="#quick-view" class="fa fa-user">Tài khoản</a></li>
+
+                            <li class="heart-icon"><a href="#">
+                                    <i class="icon_heart_alt"></i>
+                                    <span>1</span>
+                                </a>
+                            </li>
+                            <li class="cart-icon"><a href="#">
+                                    <i class="icon_bag_alt"></i>
+                                    <span>2</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img/select-product-1.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>100000 VND</p>
+                                                            <h6>Kabino Bedside Table</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img/select-product-2.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>100000 VND</p>
+                                                            <h6>Kabino Bedside Table</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>total:</span>
+                                        <h5>200000 VND</h5>
+                                    </div>
+                                    <div class="select-button">                               
+                                        <a href="#" class="primary-btn view-card">Xem giỏ hàng</a>
+                                        <a href="#" class="primary-btn checkout-btn">Kiểm tra</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-price">200000 VND</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-details quick-view modal animated zoomInUp" id="quick-view">
+            <div class="container">
+                <div class="row">
+                    <a class="UserModalstyle__CloseButton-tngk37-10 fIfNjl">
+                        <span class="tikicon icon-circle-close"></span></a>
+
+                </div>
+            </div>
+        </div>
+        <!-- nav-item -->
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>Danh mục</span>
+                        <ul class="depart-hover">
+                            <li class="active"><a href="shop.html">Áo nữ</a></li>
+                            <li><a href="shop.html">Quần nữ</a></li>
+                            <li><a href="shop.html">Váy nữ</a></li>
+                            <li><a href="shop.html">Giày nữ</a></li>
+                            <li><a href="shop.html">Phụ kiện nữ</a></li>     
+                            <li><a href="shop.html">Áo khoát nữ</a></li>                     
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./shop.html">Mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a>
+                            
+                        </li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Liên hệ</a></li>                     
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>Blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section Begin -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1">
+                    <div class="blog-sidebar">
+                        <div class="search-form">
+                            <h4>Tìm kiếm</h4>
+                            <form action="#">
+                                <input type="text" placeholder="Tìm kiếm . . .  ">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="blog-catagory">
+                            <h4>Danh mục</h4>
+                            <ul>
+                                <li><a href="#">Thời trang</a></li>
+                                <li><a href="#">Du lịch</a></li>                              
+                            </ul>
+                        </div>
+                        <div class="recent-post">
+                            <h4>Bài viết gần đây</h4>
+                            <div class="recent-blog">
+                                <a href="#" class="rb-item">
+                                    <div class="rb-pic">
+                                        <img src="img/blog/recent-1.jpg" alt="">
+                                    </div>
+                                    <div class="rb-text">
+                                        <h6>Thời trang cao cấp...</h6>
+                                        <p>Thời trang <span>- 13/6, 2019</span></p>
+                                    </div>
+                                </a>
+                                <a href="#" class="rb-item">
+                                    <div class="rb-pic">
+                                        <img src="img/blog/recent-2.jpg" alt="">
+                                    </div>
+                                    <div class="rb-text">
+                                        <h6>Thời trang cao cấp...</h6>
+                                        <p>Thời trang <span>- 13/6, 2019</span></p>
+                                    </div>
+                                </a>
+                                <a href="#" class="rb-item">
+                                    <div class="rb-pic">
+                                        <img src="img/blog/recent-3.jpg" alt="">
+                                    </div>
+                                    <div class="rb-text">
+                                        <h6>Thời trang cao cấp...</h6>
+                                        <p>Thời trang <span>- 13/6, 2019</span></p>
+                                    </div>
+                                </a>
+                                <a href="#" class="rb-item">
+                                    <div class="rb-pic">
+                                        <img src="img/blog/recent-4.jpg" alt="">
+                                    </div>
+                                    <div class="rb-text">
+                                        <h6>Thời trang cao cấp...</h6>
+                                        <p>Thời trang <span>- 13/6, 2019</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog-tags">
+                            <h4>Sản phẩm liên quan</h4>
+                            <div class="tag-item">
+                                <a href="#">Váy</a>
+                                <a href="#">Giày</a>
+                                <a href="#">Áo khoát</a>
+                                <a href="#">Phụ kiện</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 order-1 order-lg-2">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-1.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-2.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-3.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-4.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-5.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="blog-item">
+                                <div class="bi-pic">
+                                    <img src="img/blog/blog-6.jpg" alt="">
+                                </div>
+                                <div class="bi-text">
+                                    <a href="./blog-details.html">
+                                        <h4>Thời trang nữ cao cấp</h4>
+                                    </a>
+                                    <p>Thời trang <span>- 13/6, 2019</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="loading-more">
+                                <i class="icon_loading"></i>
+                                <a href="#">
+                                    Tải thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Partner Logo Section Begin -->
+   
+    <!-- Partner Logo Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Địa chỉ: Đặng Thùy Trâm, phường xx, Q.Bình Thạnh, Tp.HCM</li>
+                            <li>Phone: 123456789JQK</li>
+                            <li>Email: nguyendeptrai@vanlanguni.vn</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Thông tin</h5>
+                        <ul>
+                            <li><a href="#">Chăm sóc khách hàng</a></li>
+                            <li><a href="#">Thanh toán</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Trợ giúp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>Tài khoản của tôi</h5>
+                        <ul>
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Giỏ hàng</a></li>
+                            <li><a href="#">Mua sắm</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Đăng ký nhận bản tin của chúng tôi</h5>
+                        <p>Đừng bỏ lỡ những bản tin hấp dẫn</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Địa chỉ email của bạn">
+                            <button type="button">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

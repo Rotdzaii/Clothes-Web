@@ -1,0 +1,88 @@
+/*---------------------
+  Commom
+-----------------------*/
+body {
+  background-color: white;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #007f7f;
+}
+
+/*---------------------
+  Product Shop
+-----------------------*/
+.nav-view .mdi {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.nav-view ul {
+  list-style-type: none;
+}
+
+.product-item .pi-pic {
+  width: 50%;
+}
+
+/*---------------------
+  Shop list
+-----------------------*/
+.productlist .list-text .mdi {
+  font-size: 15px;
+}
+
+.productlist .list-text .list-btn a {
+  color: white;
+  border: 1px solid gray;
+  background-color: #00bfbf;
+  height: 35px;
+  padding: 5px 20px;
+  line-height: 35px;
+}
+
+.productlist .list-img {
+  position: relative;
+}
+
+.productlist .list-img .sell {
+  background-color: #00bfbf;
+  position: absolute;
+  color: white;
+  padding: 0 10px;
+  top: 10px;
+  left: 10px;
+}
+
+/*# sourceMappingURL=shop.css.map */
+.item-hover {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-hover img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.item-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.item-hover:hover img {
+  transform: scale(1.08);
+}
+.inner-header .row {
+  display: flex;
+  justify-content: center;
+  height: 100px
+}
+.filter-widget{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff
+}
