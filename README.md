@@ -1,11 +1,21 @@
-﻿# Clothes-Web
---Updated 08/31/2025--
-Hiện tại, Project chỉ xây dựng được 90% Frontend. Sẽ hoàn thành 100% trong thời gian sắp tới.
-Trong tương lai gần, 
+# Clothes Web
 
-Xây dựng Database (PostgreSQL).
-Phát triển Backend sau khi xong Database.
+Dự án demo website bán quần áo với **Frontend (HTML/CSS/JS)** và **Backend (FastAPI + PostgreSQL)**.
 
-Sau đó sẽ mở rộng thêm:
--Chatbox AI (hỗ trợ tư vấn, giải đáp thắc mắc về sản phẩm, đơn hàng, hỗ trợ khách hàng tự động).
--Chức năng tìm kiếm thông minh bằng AI (cho phép tìm sản phẩm bằng từ khóa tự nhiên, hình ảnh hoặc gợi ý theo thói quen mua sắm).
+---
+
+## Backend (FastAPI)
+
+### Yêu cầu
+- Python 3.10+ (khuyên dùng 3.11 hoặc 3.12)
+- PostgreSQL 14+ (hoặc phiên bản tương đương)
+
+### Cách chạy
+```bash
+cd Backend
+python -m venv venv
+.\venv\Scripts\Activate.ps1   # bật venv (Windows PowerShell)
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload --port 8000

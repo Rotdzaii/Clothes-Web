@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# --- FastAPI / DB ---
+.env
+*.db
+*.sqlite3
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.swp
+*.bak
+
+# --- IDEs ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Frontend ---
+node_modules/
+dist/
