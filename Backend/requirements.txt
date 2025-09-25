@@ -1,6 +1,8 @@
 fastapi
-uvicorn[standard]
-SQLAlchemy
+uvicorn
+sqlalchemy
 psycopg2-binary
+passlib[bcrypt]
 python-dotenv
 pydantic
+pydantic-settings
